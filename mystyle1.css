@@ -1,0 +1,143 @@
+body, html {
+    margin: 0;
+    height: 100vh; 
+    background-image: url('https://image.slidesdocs.com/responsive-images/background/white-colorful-tropical-ocean-marine-coral-abstract-texture-powerpoint-background_8493616643__960_540.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@keyframes camapboi {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#shark{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: camapboi;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes turtle {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+
+#turtle{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: turtle; 
+    animation-duration: 35s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver1{
+    0%{right: 100px; top: 400px;}
+    25%{right: 300px; top:200px}
+    40%{right: 500px;top: 300px}
+    50%{right: 600px; top: 300px;}
+    60%{right: 300px; top: 200px;}
+    80%{right: 500px; top: 200px;}
+    100%{right: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver1{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: diver1; 
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+
+
+@keyframes faintSchool{
+    0%{right: 100px; top: 400px;}
+    25%{right: 300px; top:200px}
+    40%{right: 500px;top: 300px}
+    50%{right: 600px; top: 300px;}
+    60%{right: 300px; top: 200px;}
+    80%{right: 500px; top: 200px;}
+    100%{right: 100px; top: 400px; transform: scaleX(-1);}
+}
+#faintSchool{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: faintSchool; 
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes diver2{
+    0%{right: 100px; top: 400px;}
+    25%{right: 300px; top:200px}
+    40%{right: 500px;top: 300px}
+    50%{right: 600px; top: 300px;}
+    60%{right: 300px; top: 200px;}
+    80%{right: 500px; top: 200px;}
+    100%{right: 100px; top: 400px; transform: scaleX(-1);}
+}
+#diver2{
+    right: 100px; top: 400px;
+    position: absolute;
+    animation-name: diver2; 
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@keyframes diver3 {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#diver3{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: diver3;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes cacoi {
+    0%{left: 100px;top:400px;}
+    25%{left: 300px; top:200px;}
+    40%{left: 500px; top: 300px;}
+    50%{left: 600px;top:300px;}
+    60%{left: 300px;top:200px;}
+    80%{left: 500px; top: 200px;}
+    100%{left: 100px;top:400px;transform:scaleX(-1);}
+        }
+
+#cacoi{
+    left: 100px; top: 400px;
+    position: absolute;
+    animation-name: cacoi;
+    animation-duration: 22s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
